@@ -1,0 +1,28 @@
+{
+    "name": "jc/module-multidb-connection",
+    "version": "1.0.0",
+    "description": "Module for demonstrating multiple DB ResourceConnections.",
+    "authors": [
+        {
+            "name": "Jaya Chandra S",
+            "email": "jayachandraoggy@gmail.com",
+            "homepage": "https://jayachandraoggy.github.io/",
+            "role": "Developer"
+        }
+    ],
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jc\\MultiDBConnection\\": ""
+        }
+    }
+}
